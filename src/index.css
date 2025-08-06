@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body{
+  position: relative;
+  z-index: -10;
+  background-image: url("./assets/nature-3082832_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
