@@ -4,4 +4,5 @@ export interface Idata {
     age: string
     expirens: number | string
     salary: number | string
+    region: string
 }

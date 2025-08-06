@@ -13,6 +13,7 @@ const initialState: Idata = {
   age: "",
   expirens: "",
   salary: "",
+  region: ""
 };
 
 interface Props {
@@ -95,6 +96,15 @@ const FormData: FC<Props> = ({ setData, setUpdate, update }) => {
     required
     placeholder="Enter your experience"
     type="number"
+  />
+  <input
+    name="region"
+    value={formData.region}
+    onChange={handleChange}
+    className="bg-gray-100 py-3 px-4 rounded-lg outline-none focus:ring-2 focus:ring-blue-400 transition"
+    required
+    placeholder="Enter your addres"
+    type="text"
   />
 
   <button

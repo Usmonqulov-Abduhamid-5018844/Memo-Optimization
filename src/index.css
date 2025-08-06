@@ -11,10 +11,9 @@
 
 body{
   position: relative;
-  z-index: -10;
   background-image: url("./assets/nature-3082832_1280.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 100vh;
+  min-height: 90vh;
 }

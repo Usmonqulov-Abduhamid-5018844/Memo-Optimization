@@ -20,9 +20,10 @@ const Student:FC<Props> = ({data, handleDelet, handleUpdate}) => {
         className="w-[300px] bg-white/60 backdrop-blur-sm shadow-md hover:shadow-lg transition rounded-xl p-6 flex flex-col items-center gap-4 max-[666px]:w-[100%]"
       >
         <h1 className="font-bold text-xl text-center text-gray-800 max-[666px]:text-2xl">{item.full_name}</h1>
-        <span className="text-lg font-medium max-[666px]:text-[22px]">{item.age} years</span>
-        <span className="text-base font-semibold max-[666px]:text-[19px]">{item.salary}$ USD</span>
+        <span className="text-lg font-medium max-[666px]:text-[22px]">Age: {item.age} years</span>
+        <span className="text-base font-semibold max-[666px]:text-[19px]">Salary: {item.salary}$ USD</span>
         <span className="text-base font-semibold max-[666px]:text-[25px]">Experience: {item.expirens} years</span>
+        <span className="text-base font-semibold max-[666px]:text-[25px]">Addres: {item.region} </span>
 
         <div className="flex gap-4 mt-2 max-[666px]:gap-12">
           <button
